@@ -1,0 +1,74 @@
+
+*{
+box-sizing: border-box; 
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1; 
+    background-color: rgb(98, 226, 98);
+    padding: auto;
+    margin: auto;
+    
+    
+ 
+
+}
+.step-1{
+    background-color: rgb(82, 19, 19) ;
+    padding-bottom: 70px;
+    flex-grow: 0.2;
+    
+}
+
+.step-2{
+    background-color: rgba(82, 19, 19, 0.9) ;
+    flex-grow: 0.2;
+   
+}
+
+.step-3{
+    background-color: rgba(82, 19, 19, 0.85);
+    flex-grow: 0.4;
+}
+
+.step-4{
+     
+     background-color: rgba(82, 19, 19, 0.8);
+     flex-grow: 0.5;
+ } 
+
+.step-5{
+    
+    background-color: rgba(82, 19, 19, 0.75);
+    flex-grow: 0.7;
+}
+.step-6{
+    
+    background-color: rgb(82, 19, 19, 0.65);
+    flex-grow: 1.3;
+}
+.step-7{
+   
+    background-color: rgb(82, 19, 19, 0.55);
+    flex-grow: 1.5;
+}
+
+.step-8{
+      
+     background-color: rgb(82, 19, 19, 0.45);
+     flex-grow: 2.5;
+ } 
+
+.step-9{
+    
+    background-color: rgb(82, 19, 19, 0.25);
+    flex-grow: 3;
+}
+.step-10{
+    
+    background-color: rgb(82, 19, 19, 0);
+    flex-grow: 7;
+}
